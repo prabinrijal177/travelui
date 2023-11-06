@@ -76,7 +76,7 @@ section{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(https://assets-cdn.kathmandupost.com/uploads/source/Website%20Pages/about-us-thekathmandupost-boudha.jpg);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Boudhanath_Stupa-IMG_7048.jpg/1200px-Boudhanath_Stupa-IMG_7048.jpg);
    background-size: cover;
    background-position: center;
    display: grid;
@@ -99,24 +99,25 @@ section{
 }
 
 .home-text p{
-    color: #0c023d;
+    color: blueviolet;
     font-size: 20px;
-    font-weight: 500;
-    line-height: 36px;
-    margin-bottom: 50px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 190px;
 }
 .home-btn{
     display: inline-block;
     font-size: 16px;
     padding: 15px 30px;
-    background: #ffffffbf;
-    color: var(--main-color);
+    background: #000000bf;
+    color: white;
     border-radius: 4px;
     transition: ease .40s;
 
 }
 .home-btn:hover{
-    background: var(--bg-color);
+    color: red;
+    background: white;
     transform: scale(1.1);
 
 }
@@ -134,11 +135,13 @@ header .sticky{
 .text h2{
     font-size: var(--h2-font);
     line-height: 1.1;
+    text-align: center;
 }
 .row-items{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     grid-gap: 50px;
+    margin-left: 200px;
     align-items: center;
     text-align: center;
     margin-top: 5rem;
@@ -193,6 +196,7 @@ header .sticky{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 50px;
+    margin-left: 130px;
     align-items: center;
     margin-top: 5rem;
 }
@@ -248,6 +252,7 @@ header .sticky{
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     grid-gap: 33px;
     align-items: center;
+    margin-left: 90px;
     margin-top: 5rem;
 
 }
@@ -495,4 +500,3 @@ section{
 
 }
 }
-
